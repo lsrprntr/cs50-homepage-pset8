@@ -1,0 +1,60 @@
+h1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h6 {
+    text-align: left;
+}
+
+p {
+    margin: 1rem 0.3rem;
+    text-align: center;
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+p.right {
+    text-align: right;
+}
+p.left {
+    text-align:left;
+}
+p.ignoremargin {
+    margin: 0rem;
+}
+
+p.clickbait {
+    margin: 0rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+
+.embed-responsive-item {
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+
+.spacer {
+    height: 2.5rem;
+}
+
+.divider {
+    height: 1.5rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+      border-top-width: medium;
+      border-right-width: medium;
+      border-bottom-width: medium;
+      border-left-width: medium;
+    border-width: 2px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
